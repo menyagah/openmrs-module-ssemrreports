@@ -7,7 +7,7 @@
  * Copyright (C) OpenMRS Inc. OpenMRS is a registered trademark and the OpenMRS
  * graphic logo is a trademark of OpenMRS Inc.
  */
-package org.openmrs.module.ssemrreports.api;
+package org.openmrs.module.ssemrreports;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -27,6 +27,7 @@ import static org.junit.Assert.*;
  * This is a unit test, which verifies logic in SSEMRReportsService. It doesn't extend
  * BaseModuleContextSensitiveTest, thus it is run without the in-memory DB and Spring context.
  */
+@SuppressWarnings("unused")
 public class SSEMRReportsServiceTest {
 	
 	@InjectMocks

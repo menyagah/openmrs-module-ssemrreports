@@ -25,6 +25,7 @@ import static org.junit.Assert.*;
  * standardTestDataset.xml in openmrs-api. All test methods are executed in transactions, which are
  * rolled back by the end of each test method.
  */
+@SuppressWarnings("deprecation")
 public class SSEMRReportsDaoTest extends BaseModuleContextSensitiveTest {
 	
 	@Autowired
